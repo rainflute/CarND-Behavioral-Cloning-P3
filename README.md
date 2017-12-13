@@ -90,7 +90,7 @@ The final model architecture in createmodel() function consisted of a convolutio
 
 Here is a visualization of the architecture 
 
-![cnn][./images/cnn-architecture.png]
+![cnn](./images/cnn-architecture.png)
 
 #### 3. Creation of the Training Set & Training Process
 
@@ -105,13 +105,3 @@ The result is a little bit better, but the car still cannot successfully make th
 
 Then I change the starting point near the bridge, so that I will have data of 3 shape turns in 2 laps.
 I also added data generator to the code, which speed up the training process and the car finally made the shape turns after the bridge in the track.
-
-[//]: # (Image References)
-
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
